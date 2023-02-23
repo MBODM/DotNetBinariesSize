@@ -18,7 +18,7 @@ I just opened some default Visual Studio 2022 .NET project templates, enabled al
 - .NET 7 WinForms Application
 - .NET 7 WPF Application
 
-All projects are published as "self-contained" with "win-x64" as target platform. All size options (2 or 3 options), Visual Studio 2022 shows in the Publish UI dialog, were adjusted to "generate smallest executable size possible". No other "special tricks" were used to further decrease the output binary size (this was done on purpose).
+All projects are published as "self-contained" with "win-x64" as target platform. All size options (2 or 3 options), Visual Studio 2022 shows in the Publish UI dialog, were adjusted to "generate smallest executable size possible". No other "special tricks" (special compiler settings, hidden settings, special optimizations, and so on) were used to further decrease the output binary size (this was done on purpose).
 
 ### Results
 
