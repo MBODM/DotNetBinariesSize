@@ -5,7 +5,7 @@ Some simple testing to see how big some compiled .NET binaries are
 
 After a short discussion with a friend of mine (greetings to Stefan), about how much minimal size some different self-contained .NET executables/binaries have (when compiled with "minimum output size" options, like Trimming), i thought it´s a good idea to quickly test this on my own. I just used this GitHub repo to have some place to save the projects and share the results.
 
-So, really nothing special here aka _super lame_. 😁
+So, really nothing special here (translation: _super lame_). 😁
 
 ### How it is done
 
