@@ -28,3 +28,6 @@ All projects are published as "self-contained" with "win-x64" as target platform
 - xxx MB (.NET 7 CLI Application)
 - xxx MB (.NET 7 WinForms Application)
 - xxx MB (.NET 7 WPF Application)
+
+
+###ä Have fun.
