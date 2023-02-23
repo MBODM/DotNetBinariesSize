@@ -3,7 +3,7 @@ Some simple testing to see how big some compiled .NET binaries are
 
 ### What it is
 
-After a short discussion about Rust and Go, with a friend of mine (greetings to Stefan), we thought about how much minimal size some different self-contained .NET executables/binaries may have (when compiled with "minimum output size" options, like Trimming). Therefore i thought it´s a good idea to quickly test this on my own. I just used this GitHub repo to have some place to save the projects and share the results.
+After a short discussion about Rust and Go, with a friend of mine (greetings to Stefan), we thought about how much minimal size some different self-contained .NET binaries (executables) may have (when compiled with "minimum output size" options, like Trimming). Therefore i thought it´s a good idea to quickly test this on my own. I just used this GitHub repo to have some place to save the projects and share the results.
 
 So, really nothing special here (translation: _super lame_). 😁
 
