@@ -9,7 +9,7 @@ So, really nothing special here. 😁
 
 ### How it is done
 
-I just opened some default Visual Studio 2022 .NET project templates, with all the "minimum binary size" options enabled, saved and compiled them. No other changes and no extra written code in them. The tested project types are:
+I just opened some default Visual Studio 2022 .NET project templates, enabled all the "minimum output binary size" options, saved and compiled them. No other changes and no extra written code in them. The tested project types are:
 
 - .NET 6 CLI Application
 - .NET 6 WinForms Application
