@@ -29,5 +29,10 @@ All projects are published as "self-contained" with "win-x64" as target platform
 - xxx MB (.NET 7 WinForms Application)
 - xxx MB (.NET 7 WPF Application)
 
+### ReadyToRun compilation
+
+A few words here about the "ReadyToRun compilation" option of the Publish UI dialog:
+
+In all cases the output binary size was either the same or even bigger when activating this option. As expected. R2R increase the startup speed when the Application is started. But it can end up in more code to achieve this goal.
 
 #### Have fun.
