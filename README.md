@@ -17,7 +17,7 @@ I just opened some different default Visual Studio 2022 .NET project templates, 
 - `Enable Ready2Run compilation` unchecked (see notes below).
 - `Trim unused code` checked, if existing.
 
-No other changes were made and no code was written. The tested project types are:
+No other changes were made and no code was written. The different tested project types are:
 
 - .NET 6 CLI Application
 - .NET 6 WinForms Application
