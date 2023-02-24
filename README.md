@@ -9,7 +9,7 @@ So, really nothing special here (translation: _super lame_). 😁
 
 ### How it is done
 
-I just used the various Visual Studio 2022 default .NET project templates, saved them, compiled them and then published them, with the publish options listed below. No other changes were made and no code was written. The tested project types are:
+I just used the various Visual Studio 2022 default .NET project templates. Created the project, saved it, compiled it and then published it, with the publish options listed below. No other changes were made and no code was written. The tested project types are:
 
 - .NET 6 CLI Application
 - .NET 6 WinForms Application
