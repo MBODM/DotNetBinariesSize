@@ -10,15 +10,14 @@ So, really nothing special here (translation: _super lame_). 😁
 ### How it is done
 
 I just opened some different default Visual Studio 2022 .NET project templates, saved and compiled them. Then i published them with the following options:
+
 - `self-contained` as Deployment mode.
 - `win-x64` as Target runtime.
 - `Produce single file` checked.
 - `Enable Ready2Run compilation` unchecked (see notes below).
 - `Trim unused code` checked, if existing.
 
-
-
-enabled the `Trim unused code` option, if existing, in the Publish UI dialog, saved and compiled them as `self-contained`. No other changes were made and no code was written. The tested project types are:
+No other changes were made and no code was written. The tested project types are:
 
 - .NET 6 CLI Application
 - .NET 6 WinForms Application
