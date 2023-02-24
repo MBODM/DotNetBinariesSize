@@ -33,6 +33,14 @@ All projects are published as "self-contained" with "win-x64" as target platform
 
 A few words here about the "ReadyToRun compilation" option of the Publish UI dialog:
 
-In all cases the output binary size was either the same or even bigger when activating this option. As expected. R2R increase the startup speed when the Application is started. But it can end up in more code to achieve this goal.
+In all cases the output binary size was either the same or even bigger when activating this option. As expected. Cause R2R increase the startup speed when the Application is started, but can end up in more code to achieve this goal. Therefore i did all the tests, to not compare apples with oranges, with that option unchecked.
+
+Nonetheless a few interessting facts, i discovered:
+
+
+- For WinForms in .NET 6 the R2R option has no impact on the output binary size.
+- For WinForms in .NET 7 the R2R option increases the output binary size by ~5MB.
+- For WPF in .NET 6 the R2R option has no impact on the output binary size.
+- For WPF in .NET 7 the R2R option increases the output binary size by ~12MB.
 
 #### Have fun.
