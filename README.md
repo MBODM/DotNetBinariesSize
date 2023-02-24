@@ -9,15 +9,7 @@ So, really nothing special here (translation: _super lame_). 😁
 
 ### How it is done
 
-I just opened some different default Visual Studio 2022 .NET project templates, saved and compiled them. Then i published them with the following options:
-
-- `self-contained` as Deployment mode.
-- `win-x64` as Target runtime.
-- `Produce single file` checked.
-- `Enable Ready2Run compilation` unchecked (see notes below).
-- `Trim unused code` checked, if existing.
-
-No other changes were made and no code was written. The different tested project types are:
+I just opened some different default Visual Studio 2022 .NET project templates, saved them, compiled them and then published them, with the options listed below. No other changes were made and no code was written. The tested project types are:
 
 - .NET 6 CLI Application
 - .NET 6 WinForms Application
@@ -26,7 +18,15 @@ No other changes were made and no code was written. The different tested project
 - .NET 7 WinForms Application
 - .NET 7 WPF Application
 
-No other "special tricks" (special compiler settings, hidden settings, special optimizations, and so on) were used to further decrease the output binary size (this was done on purpose).
+I published all of them with the following options in the Visual Studio Publish dialog:
+
+- `self-contained` as Deployment mode.
+- `win-x64` as Target runtime.
+- `Produce single file` checked.
+- `Enable Ready2Run compilation` unchecked (see notes below).
+- `Trim unused code` checked, if existing.
+
+No other "special tricks" (special compiler settings, hidden settings, special optimizations, and so on) were used to further decrease the output binary size (on purpose).
 
 ### Results
 
