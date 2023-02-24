@@ -43,7 +43,7 @@ A few words here about the `ReadyToRun compilation` option of the Publish dialog
 
 In all cases the output binary size was either the same or even bigger when activating this option. As expected. Because R2R will increase the startup speed when the application starts, but can end up in more code to achieve this goal. Therefore i did all the tests with that option unchecked, to not compare apples with oranges.
 
-Nonetheless some interessting facts, i discovered while testing:
+Nonetheless i discovered some interessting facts while testing:
 
 - For CLI in .NET 6 the the R2R option increases the output binary size by __~3MB__.
 - For CLI in .NET 7 the the R2R option increases the output binary size by __~3MB__.
