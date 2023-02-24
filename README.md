@@ -31,7 +31,7 @@ All projects are published as "self-contained" with "win-x64" as target platform
 
 ### ReadyToRun compilation
 
-A few words here about the "ReadyToRun compilation" option of the Publish UI dialog:
+A few words here about the `ReadyToRun compilation` option of the Publish UI dialog:
 
 In all cases the output binary size was either the same or even bigger when activating this option. As expected. Cause R2R increase the startup speed when the Application is started, but can end up in more code to achieve this goal. Therefore i did all the tests, to not compare apples with oranges, with that option unchecked.
 
