@@ -55,10 +55,10 @@ Nonetheless some interessting facts, i discovered while testing:
 ### Screenshots
 
 ![CLI6](Screenshots/ResultCLI6.png)
-![WinForms6](Screenshots/WinForms6.png)
+![WinForms6](Screenshots/ResultWinForms6.png)
 ![WPF6](Screenshots/ResultWPF6.png)
 ![CLI7](Screenshots/ResultCLI7.png)
-![WinForms](Screenshots/WinForms7.png)
+![WinForms](Screenshots/ResultWinForms7.png)
 ![WPF7](Screenshots/ResultWPF7.png)
 
 #### Have fun.
