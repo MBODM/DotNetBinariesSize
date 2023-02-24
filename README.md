@@ -26,7 +26,7 @@ I published all of them with the following options in the Visual Studio Publish 
 - `Enable Ready2Run compilation` unchecked (see notes below).
 - `Trim unused code` checked, if existing.
 
-No other "special tricks" (special compiler settings, hidden settings, special optimizations, and so on) were used to further decrease the output binary size (on purpose).
+No other "special tricks" (special compiler settings, hidden settings, special optimizations, and so on) were used to further decrease the output binary size. This was done on purpose, for the first step of testing here.
 
 ### Results
 
