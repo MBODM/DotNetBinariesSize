@@ -13,7 +13,7 @@ I just opened some different default Visual Studio 2022 .NET project templates, 
 - `self-contained` as Deployment mode.
 - `win-x64` as Target runtime.
 - `Produce single file` checked.
-- `Enable Ready2Run compilation` unchecked.
+- `Enable Ready2Run compilation` unchecked (see notes below).
 - `Trim unused code` checked, if existing.
 
 
