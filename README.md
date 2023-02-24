@@ -41,7 +41,7 @@ No other "special tricks" (special compiler settings, hidden settings, special o
 
 A few words here about the `ReadyToRun compilation` option of the Publish UI dialog in Visual Studio:
 
-In all cases the output binary size was either the same or even bigger when activating this option. As expected. Because R2R will increase the startup speed when the Application starts, but can end up in more code to achieve this goal. Therefore i did all the tests with that option unchecked, to not compare apples with oranges.
+In all cases the output binary size was either the same or even bigger when activating this option. As expected. Because R2R will increase the startup speed when the application starts, but can end up in more code to achieve this goal. Therefore i did all the tests with that option unchecked, to not compare apples with oranges.
 
 Nonetheless some interessting facts, i discovered while testing:
 
