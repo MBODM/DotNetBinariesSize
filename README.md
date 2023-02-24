@@ -18,7 +18,7 @@ I just opened some different default Visual Studio 2022 .NET project templates, 
 - .NET 7 WinForms Application
 - .NET 7 WPF Application
 
-I published all of them with the following options in the Visual Studio Publish dialog (also see screenshots below):
+I published all of them with the following options in the Visual Studio Publish dialog (see screenshots below):
 
 - `self-contained` as Deployment mode.
 - `win-x64` as Target runtime.
