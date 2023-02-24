@@ -1,4 +1,4 @@
-# DotNetMinimumBinarySize
+# DotNetMinimalBinarySize
 Some simple testing to see how big compiled .NET binaries are in 2023
 
 ### What it is
