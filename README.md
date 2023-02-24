@@ -43,4 +43,8 @@ Nonetheless a few interessting facts, i discovered:
 - For WPF in .NET 6 the R2R option has no impact on the output binary size.
 - For WPF in .NET 7 the R2R option increases the output binary size by ~12MB.
 
+### Screenshots
+
+
+
 #### Have fun.
