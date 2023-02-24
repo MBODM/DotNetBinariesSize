@@ -20,11 +20,11 @@ I just opened some different default Visual Studio 2022 .NET project templates, 
 
 I published all of them with the following options in the Visual Studio Publish dialog (see screenshots below):
 
-- `self-contained` as Deployment mode.
-- `win-x64` as Target runtime.
-- `Produce single file` checked.
-- `Enable Ready2Run compilation` unchecked (see notes below).
-- `Trim unused code` checked, if existing.
+- `self-contained` as Deployment mode
+- `win-x64` as Target runtime
+- `Produce single file` checked
+- `Enable Ready2Run compilation` unchecked (see notes below)
+- `Trim unused code` checked (if existing)
 
 No other "special tricks" (special compiler settings, hidden settings, special optimizations, and so on) were used to further decrease the output binary size. This was done on purpose, for the first step of testing here.
 
