@@ -30,10 +30,10 @@ No other "special tricks" (special compiler settings, hidden settings, special o
 
 ### Results
 
-- &nbsp;11 MB (.NET 6 CLI Application)
+- 11 MB (.NET 6 CLI Application)
 - 143 MB (.NET 6 WinForms Application)
 - 143 MB (.NET 6 WPF Application)
-- &nbsp;11 MB (.NET 7 CLI Application)
+- 11 MB (.NET 7 CLI Application)
 - 147 MB (.NET 7 WinForms Application)
 - 147 MB (.NET 7 WPF Application)
 
