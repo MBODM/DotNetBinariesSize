@@ -1,5 +1,5 @@
 # DotNetBinariesSize
-Some simple testing to examine the size of stand-alone .NET binaries in 2023
+Some simple testing to examine the size of self-contained .NET binaries in 2023
 
 ### What it is
 
