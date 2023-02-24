@@ -45,8 +45,8 @@ In all cases the output binaries had either the same size or were even larger wh
 
 Nonetheless i discovered some interessting facts while testing:
 
-- For CLI in .NET 6 the the R2R option increases the output binary size by __~3MB__.
-- For CLI in .NET 7 the the R2R option increases the output binary size by __~3MB__.
+- For CLI in .NET 6 the R2R option increases the output binary size by __~3MB__.
+- For CLI in .NET 7 the R2R option increases the output binary size by __~3MB__.
 - For WinForms in .NET 6 the R2R option has __no impact__ on the output binary size.
 - For WinForms in .NET 7 the R2R option increases the output binary size by __~5MB__.
 - For WPF in .NET 6 the R2R option has __no impact__ on the output binary size.
