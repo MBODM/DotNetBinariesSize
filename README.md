@@ -30,12 +30,12 @@ No other "special tricks" (special compiler settings, hidden settings, special o
 
 ### Results
 
-- xxx MB (.NET 6 CLI Application)
-- xxx MB (.NET 6 WinForms Application)
-- xxx MB (.NET 6 WPF Application)
-- xxx MB (.NET 7 CLI Application)
-- xxx MB (.NET 7 WinForms Application)
-- xxx MB (.NET 7 WPF Application)
+-  11 MB (.NET 6 CLI Application)
+- 143 MB (.NET 6 WinForms Application)
+- 143 MB (.NET 6 WPF Application)
+-  11 MB (.NET 7 CLI Application)
+- 147 MB (.NET 7 WinForms Application)
+- 147 MB (.NET 7 WPF Application)
 
 ### ReadyToRun compilation
 
@@ -45,15 +45,15 @@ In all cases the output binary size was either the same or even bigger when acti
 
 Nonetheless some interessting facts, i discovered while testing:
 
-- For CLI in .NET 6 the the R2R option increases the output binary size by ~3MB.
-- For CLI in .NET 7 the the R2R option increases the output binary size by ~3MB.
-- For WinForms in .NET 6 the R2R option has no impact on the output binary size.
-- For WinForms in .NET 7 the R2R option increases the output binary size by ~5MB.
-- For WPF in .NET 6 the R2R option has no impact on the output binary size.
-- For WPF in .NET 7 the R2R option increases the output binary size by ~12MB.
+- For CLI in .NET 6 the the R2R option increases the output binary size by __~3MB__.
+- For CLI in .NET 7 the the R2R option increases the output binary size by __~3MB__.
+- For WinForms in .NET 6 the R2R option has __no impact__ on the output binary size.
+- For WinForms in .NET 7 the R2R option increases the output binary size by __~5MB__.
+- For WPF in .NET 6 the R2R option has __no impact__ on the output binary size.
+- For WPF in .NET 7 the R2R option increases the output binary size by __~12MB__.
 
 ### Screenshots
 
-
+![CLI6](Screenshots/ResultCLI6.png)
 
 #### Have fun.
