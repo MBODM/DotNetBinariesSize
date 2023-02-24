@@ -54,7 +54,7 @@ Nonetheless some interessting facts, i discovered while testing:
 
 ### Additional notes
 - The publish process in .NET 7 took substantially more time than in .NET 6, foremost on first publish (~52s).
-- While in .NET 6 the R2R option had no impact on binary size for WinForms and WPF applications, in .NET 7 it had an impact (see above).
+- While the R2R option in .NET 6 had no impact for WinForms and WPF, in .NET 7 this changed (see above section).
 
 ### Screenshots
 
