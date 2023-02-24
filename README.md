@@ -9,7 +9,7 @@ So, really nothing special here (translation: _super lame_). 😁
 
 ### How it is done
 
-I just opened different default Visual Studio 2022 .NET project templates, saved and compiled them. Then i published them with the following options:
+I just opened some different default Visual Studio 2022 .NET project templates, saved and compiled them. Then i published them with the following options:
 - `self-contained` as Deployment mode.
 - `win-x64` as Target runtime.
 - `Produce single file` checked.
