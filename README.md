@@ -1,5 +1,5 @@
 # DotNetMinimumBinarySize
-Some simple testing to see how big some compiled .NET binaries are
+Some simple testing to see how big compiled .NET binaries are
 
 ### What it is
 
