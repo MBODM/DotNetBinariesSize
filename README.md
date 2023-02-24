@@ -3,13 +3,22 @@ Some simple testing to see how big some compiled .NET binaries are
 
 ### What it is
 
-After a short discussion about Rust and Go, with a friend of mine (greetings to Stefan), we thought about how much minimal size some different .NET binaries (executables) may have today (when compiled self-contained with "minimum output size" options, like Trimming). Therefore i thought it´s a good idea to quickly test this on my own. I just used this GitHub repo to have some place to save the projects and share the results.
+After a short discussion about Rust and Go, with a friend of mine (greetings to Stefan here), we thought about the minimal size some different .NET binaries (executables) may have today (when compiled `self-contained` with "minimum output size" options, like Trimming). Therefore i thought it´s a good idea to quickly test this on my own. I just used this GitHub repo to have some place to save the projects and share the results.
 
 So, really nothing special here (translation: _super lame_). 😁
 
 ### How it is done
 
-I just opened some default Visual Studio 2022 .NET project templates, enabled all the "minimum output binary size" options in the Publish UI dialog, saved and compiled them. No other changes were made and no code was written. The tested project types are:
+I just opened some default Visual Studio 2022 .NET project templates, saved and compiled them. Then i published them with the following options:
+- `self-contained` as Deployment mode.
+- `win-x64` as Target runtime.
+- `Produce single file` checked.
+- `Enable Ready2Run compilation` unchecked.
+- `Trim unused code` checked, if existing.
+
+
+
+enabled the `Trim unused code` option, if existing, in the Publish UI dialog, saved and compiled them as `self-contained`. No other changes were made and no code was written. The tested project types are:
 
 - .NET 6 CLI Application
 - .NET 6 WinForms Application
