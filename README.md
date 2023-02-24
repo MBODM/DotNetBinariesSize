@@ -54,7 +54,9 @@ Nonetheless some interessting facts, i discovered while testing:
 
 ### Additional notes
 - The publish process in .NET 7 took substantially more time than in .NET 6, foremost on first publish (~52s).
-- While the R2R option in .NET 6 had no impact for WinForms and WPF, in .NET 7 this changed (see previous section).
+- While R2R in .NET 6 had no impact on WinForms & WPF, in .NET 7 this has changed (see previous section).
+- The `Trim unused code` option is only available for CLI project types.
+- In contrast to earlier .NET versions there are no other "decrease output size" options available in the UI.
 
 ### Screenshots
 
