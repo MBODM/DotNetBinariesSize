@@ -52,6 +52,10 @@ Nonetheless some interessting facts, i discovered while testing:
 - For WPF in .NET 6 the R2R option has __no impact__ on the output binary size.
 - For WPF in .NET 7 the R2R option increases the output binary size by __~12MB__.
 
+### Additional notes
+- The publish process in .NET 7 took substantially more time than in .NET 6, foremost on first publish (~52s).
+- While in .NET 6 the R2R option had no impact on binary size for WinForms and WPF applications, in .NET 7 it had an impact (see above).
+
 ### Screenshots
 
 ![CLI6](Screenshots/ResultCLI6.png)
