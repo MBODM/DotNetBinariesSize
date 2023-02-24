@@ -3,7 +3,7 @@ Some simple testing to examine the size of stand-alone .NET binaries in 2023
 
 ### What it is
 
-After a short discussion about Rust and Go, with a friend of mine (greetings to Stefan here), we thought about the minimal size different .NET binaries (executables) may have today (when compiled `self-contained` and `single file`, using all "minimum output size" options, like Trimming). Therefore i quickly tested this on my own, since this seemed a good idea to me. I just used this GitHub repo to have some location to save the projects and share the results.
+After a short discussion about Rust and Go, with a friend of mine (greetings to Stefan here), we thought about the minimal size different .NET binaries (executables) may have today. If compiled `self-contained` and `single file`, using all "minimum output size" options, like Trimming. Therefore i quickly tested this on my own, since this seemed a good idea to me. I just used this GitHub repo to have some location to save the projects and share the results.
 
 So, really nothing special here (translation: _super lame_). 😁
 
